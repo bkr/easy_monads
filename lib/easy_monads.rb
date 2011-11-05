@@ -1,2 +1,2 @@
-require 'easy_monads/monadic'
-require 'easy_monads/option'
+require File.join(File.dirname(__FILE__), "easy_monads", "monadic")
+require File.join(File.dirname(__FILE__), "easy_monads", "option")
