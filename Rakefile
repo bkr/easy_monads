@@ -15,11 +15,16 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "easy_monads"
-  gem.homepage = "http://github.com/SteveSJ76/easy_monads"
+  gem.homepage = "https://github.com/bkr/easy_monads"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "steve@stevesloan.com"
+  gem.summary = "EasyMonads is a simple implementation of monads for Ruby"
+  gem.description = <<EOS
+EasyMonads is a gem for Ruby that provides a simple implementation of monads.  It also provides a useful example of
+monads in the form of Option (similar to Scala's Option) which provides Some and None classes.
+
+Developement for EasyMonads is sponsored by BookRenter.com and it is released under an MIT-style license
+EOS
+  gem.email = "stephen.sloan@bookrenter.com"
   gem.authors = ["Stephen Sloan"]
   # dependencies defined in Gemfile
 end
@@ -42,7 +47,7 @@ end
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
