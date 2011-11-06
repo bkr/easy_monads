@@ -6,6 +6,7 @@ source "http://rubygems.org"
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
+  gem "pry"
   gem "shoulda", "~> 2.11.3"
   gem "shared_should", "~> 0.8.1"
   gem "always_execute", "~> 0.0.2"

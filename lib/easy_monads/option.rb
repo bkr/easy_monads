@@ -1,3 +1,4 @@
+
 module EasyMonads
   module Option
     class Option < EasyMonads::Monadic
