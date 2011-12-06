@@ -13,10 +13,23 @@ Gem::Specification.new do |s|
   s.description = "EasyMonads is a gem for Ruby that provides a simple implementation of monads.  It also provides a useful example of\nmonads in the form of Option (similar to Scala's Option) which provides Some and None classes.\n\nDevelopement for EasyMonads is sponsored by BookRenter.com and it is released under an MIT-style license\n"
   s.email = "stephen.sloan@bookrenter.com"
   s.extra_rdoc_files = [
+    "LICENSE.txt",
     "README.md"
   ]
   s.files = [
-    "README.md"
+    ".document",
+    "Gemfile",
+    "LICENSE.txt",
+    "README.md",
+    "Rakefile",
+    "VERSION",
+    "easy_monads.gemspec",
+    "lib/easy_monads.rb",
+    "lib/easy_monads/monadic.rb",
+    "lib/easy_monads/option.rb",
+    "lib/easy_monads/option_functions.rb",
+    "test/helper.rb",
+    "test/test_easy_monads.rb"
   ]
   s.homepage = "https://github.com/bkr/easy_monads"
   s.licenses = ["MIT"]
