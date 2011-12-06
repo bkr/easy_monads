@@ -1,4 +1,4 @@
-# Easy Monads - Monads for Ruby, with Scala like Option
+# Easy Monads - Monads for Ruby, with Option
 
 ## EasyMonads::Monadic
 
