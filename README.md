@@ -10,7 +10,7 @@ Inspiration for easy_monads largely comes from Scala's Option, and Option is imp
 
 # Credits
 
-Shared Shoulda is maintained by [Stephen Sloan](https://github.com/SteveSJ76) and is funded by [BookRenter.com](http://www.bookrenter.com "BookRenter.com"). We are experimenting with monads at BookRenter and hope that you find this useful.
+Easy Monads is maintained by [Stephen Sloan](https://github.com/SteveSJ76) and is funded by [BookRenter.com](http://www.bookrenter.com "BookRenter.com"). We are experimenting with monads at BookRenter and hope that you find this useful.
 
 ![BookRenter.com Logo](http://assets0.bookrenter.com/images/header/bookrenter_logo.gif "BookRenter.com")
 
