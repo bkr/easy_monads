@@ -71,7 +71,7 @@ module EasyMonads
       end
 
       def size
-        @data.each.count
+        1
       end
 
       def exists?(&pred)

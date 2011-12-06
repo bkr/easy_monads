@@ -154,10 +154,10 @@ class TestEasyMonads < Test::Unit::TestCase
         assert_equal false, @some.empty?
       end
 
-      should "return the size of its data for .size" do
+      should "return 1 for its size" do
         assert_equal 1, @some.size
         another_some = EasyMonads::Option::Some.new(["hello", "world"])
-        assert_equal 2, another_some.size
+        assert_equal 1, another_some.size
       end
 
       should "return true when a predicate is true for .exists?" do
