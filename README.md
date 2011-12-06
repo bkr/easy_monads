@@ -2,7 +2,7 @@
 
 ## EasyMonads::Monadic
 
-Created to provide an easy implementation of monads for Ruby.  Monads are practical and easy to grok (or at least they should be).  Here is an excellent tutorial that explains some of the benefits of monads: [http://www.codecommit.com/blog/ruby/monads-are-not-metaphors](monads-are-not-metaphors).
+Created to provide an easy implementation of monads for Ruby.  Monads are practical and easy to grok (or at least they should be).  Here is an excellent tutorial that explains some of the benefits of monads: [monads-are-not-metaphors](http://www.codecommit.com/blog/ruby/monads-are-not-metaphors).
 
 ## EasyMonads::Option
 
