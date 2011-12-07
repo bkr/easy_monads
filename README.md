@@ -6,7 +6,7 @@ Created to provide an easy implementation of monads for Ruby.  Monads are practi
 
 ## EasyMonads::Option
 
-Inspiration for easy_monads largely comes from Scala's Option, and Option is implemented here.  The goal of EasyMonad::Option isn't to mirror Scala's implementation, but it tries to follow the general pattern.  If you are a Scala fan and are looking for Scala semantics in Ruby applications, you should have a look at [https://github.com/ms-ati/rumonade](rumonade) as well as easy_monads. If you are looking for an easy implentation of Option for Ruby, EasyMonads::Option is an excellent choice.
+Inspiration for easy_monads largely comes from Scala's Option, and Option is implemented here.  The goal of EasyMonad::Option isn't to mirror Scala's implementation, but it tries to follow the general pattern.  If you are a Scala fan and are looking for Scala semantics in Ruby applications, you should have a look at [rumonade](https://github.com/ms-ati/rumonade) as well as easy_monads. If you are looking for an easy implentation of Option for Ruby, EasyMonads::Option is an excellent choice.
 
 # Credits
 
