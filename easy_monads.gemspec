@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "easy_monads"
-  s.version = "0.3.0"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Stephen Sloan"]
-  s.date = "2011-12-06"
+  s.date = "2012-01-23"
   s.description = "EasyMonads is a gem for Ruby that provides a simple implementation of monads.  It also provides a useful example of\nmonads in the form of Option (similar to Scala's Option) which provides Some and None classes.\n\nDevelopement for EasyMonads is sponsored by BookRenter.com and it is released under an MIT-style license\n"
   s.email = "stephen.sloan@bookrenter.com"
   s.extra_rdoc_files = [
